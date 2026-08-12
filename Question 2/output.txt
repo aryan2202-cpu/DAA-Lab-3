@@ -1,0 +1,19 @@
+Test Case 1: Lighter coin present
+Enter total number of coins (n): 7
+Enter standard weight of a genuine coin: 10
+Enter weights of 7 coins:
+10 10 10 7 10 10 10
+
+--- Result ---
+Defective (lighter) coin found at Index 3 (Weight: 7)
+
+--------------------------------------------------
+
+Test Case 2: No lighter coin present
+Enter total number of coins (n): 6
+Enter standard weight of a genuine coin: 10
+Enter weights of 6 coins:
+10 10 10 10 10 10
+
+--- Result ---
+No defective coin present. All coins have exact required weight.
