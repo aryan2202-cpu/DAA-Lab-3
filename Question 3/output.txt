@@ -1,0 +1,19 @@
+Test Case 1: Standard Array
+Enter number of elements (n): 8
+Enter 8 elements:
+34 12 89 5 23 90 1 67
+
+--- Result ---
+Maximum element: 90
+Minimum element: 1
+
+--------------------------------------------------
+
+Test Case 2: Array with Negative Numbers
+Enter number of elements (n): 6
+Enter 6 elements:
+-10 -3 0 25 -45 12
+
+--- Result ---
+Maximum element: 25
+Minimum element: -45
