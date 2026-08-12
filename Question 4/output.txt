@@ -1,0 +1,37 @@
+Test Case 1: 2x2 Matrix Multiplication
+Enter matrix dimension n (must be a power of 2, e.g., 2, 4): 2
+
+Enter elements of Matrix A (2x2):
+1 2
+3 4
+
+Enter elements of Matrix B (2x2):
+5 6
+7 8
+
+--- Resultant Matrix (A x B) ---
+19 22 
+43 50 
+
+--------------------------------------------------
+
+Test Case 2: 4x4 Matrix Multiplication
+Enter matrix dimension n (must be a power of 2, e.g., 2, 4): 4
+
+Enter elements of Matrix A (4x4):
+1 2 3 4
+5 6 7 8
+9 1 2 3
+4 5 6 7
+
+Enter elements of Matrix B (4x4):
+8 7 6 5
+4 3 2 1
+1 2 3 4
+5 6 7 8
+
+--- Resultant Matrix (A x B) ---
+39 42 45 48 
+111 114 117 120 
+93 88 83 78 
+93 98 103 108
