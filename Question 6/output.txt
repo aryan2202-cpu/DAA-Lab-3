@@ -1,0 +1,37 @@
+==================================================
+Theoretical Analysis: Loop Invariants in Selection Sort
+==================================================
+
+1. Loop Invariant:
+   At the start of each iteration i, subarray A[0...i-1] contains the i 
+   smallest elements of the array in sorted order.
+
+2. Why loop runs for (n-1) elements:
+   Once (n-1) elements are placed in sorted positions, the remaining 1 element 
+   is naturally the largest and is already in its correct final spot.
+
+3. Time Complexities:
+   - Worst-Case: Theta(n^2)
+   - Best-Case:  Theta(n^2) (No improvement because minimum search always scans all remaining elements)
+
+==================================================
+Execution Results
+==================================================
+
+Test Case 1: Unsorted Array
+Enter number of elements (n): 7
+Enter 7 elements:
+64 25 12 22 11 90 45
+
+Original Array: 64 25 12 22 11 90 45 
+Sorted Array:   11 12 22 25 45 64 90 
+
+--------------------------------------------------
+
+Test Case 2: Already Sorted Array (Best-Case Validation)
+Enter number of elements (n): 5
+Enter 5 elements:
+10 20 30 40 50
+
+Original Array: 10 20 30 40 50 
+Sorted Array:   10 20 30 40 50
